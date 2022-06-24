@@ -15,4 +15,4 @@ Large files are stored here: https://drive.google.com/drive/u/3/folders/1vVH-ExX
 
 ## Credit
 
-Unless otherwise listed the visualizations here were built by Dan Birman with help from the IBL staff, in particular Gaelle Chapuis, Mayo Faulkner, Olivier Winter, and Cyrille Rossant. 
+Unless otherwise listed the visualizations here were built by Dan Birman with help from the IBL staff, in particular Gaelle Chapuis, Mayo Faulkner, Cyrille Rossant, and Olivier Winter. 
