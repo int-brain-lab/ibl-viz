@@ -1,3 +1,5 @@
 **/*checkpoint.ipynb
 **/*.pqt
 **/.ipynb_checkpoints/*
+bwm/data/*
+test/*
