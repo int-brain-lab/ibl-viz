@@ -12,6 +12,14 @@ Large files are stored here: https://drive.google.com/drive/u/3/folders/1vVH-ExX
 ### Brain Wide Map
  - [IBL Average Trial](https://drive.google.com/file/d/1OeHbw3R4_wUfF_nC1iZWvDT-JQIzdjsQ/view?usp=sharing): Trials are averaged by linear time-warping between trial start, stim on, first wheel move, feedback, and trial end to match a fixed trial template. Averaging was performed for all sessions splits by trial type (4 trial types: correct/incorrect and stim left/right), contrast is ignored. QC passing clusters are included from all Brain Wide Map sessions. Firing rates are baselined and then normalized to percent signal change by dividing by the baseline firing rate and mapped to the transparency and scale of the dots. Last updated 2022-06. Visualization created by Kai Nylund.
  - [IBL Average Trial **VR Demo**](https://drive.google.com/file/d/1AG8KU2BSAe3iSc4msTLbfQW9Faaof-2A/view?usp=share_link): Same as above, but a virtual reality experience in which you get to see the IBL experiment from a first person point of view. Last updated 2022-11. Visualization created by Dan Birman w/ help from Mayo Faulkner (original scripts from Kai Nylund).
+ - Insertion coverage [axial](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_axial.png) [angled](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_angled.png) [clusters](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_good_coverage.png): Last updated 2022-11.
+ 
+<p float="left">
+ <img src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_axial.png" width="25%"> 
+ <img src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_angled.png" width="25%"> 
+ <img src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_good_coverage.png" width="25%"> 
+</p>
+ 
  - [Coverage volume](https://drive.google.com/file/d/18T2Du1aTtwRnukFWp6dQnGKvZmJL6PWX/view?usp=sharing): Yellow = one insertion, Green = two. Last updated 2022-06.
  - [Insertions by Lab](https://github.com/int-brain-lab/website/raw/main/static/images/labs.mp4) or as a [gif](https://github.com/int-brain-lab/website/raw/main/static/images/labs.gif): Last updated 2022-09.
  
