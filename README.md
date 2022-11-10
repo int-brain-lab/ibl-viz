@@ -10,7 +10,7 @@ Large files are stored here: https://drive.google.com/drive/u/3/folders/1vVH-ExX
 [IBL Data Portal](https://viz.internationalbrainlab.org/): website showing summary plots from a subset of the brain wide map and reproducible ephys sessions.
 
 ### Brain Wide Map
- - [IBL Average Trial](https://drive.google.com/file/d/1OeHbw3R4_wUfF_nC1iZWvDT-JQIzdjsQ/view?usp=sharing): Trials are averaged by linear time-warping between trial start, stim on, first wheel move, feedback, and trial end to match a fixed trial template. Averaging was performed for all sessions splits by trial type (4 trial types: correct/incorrect and stim left/right), contrast is ignored. QC passing clusters are included from all Brain Wide Map sessions. Firing rates are baselined and then normalized to percent signal change by dividing by the baseline firing rate and mapped to the transparency and scale of the dots. Last updated 2022-06. Visualization created by Kai Nylund.
+ - [IBL Average Trial Video](https://drive.google.com/file/d/1OeHbw3R4_wUfF_nC1iZWvDT-JQIzdjsQ/view?usp=sharing): Trials are averaged by linear time-warping between trial start, stim on, first wheel move, feedback, and trial end to match a fixed trial template. Averaging was performed for all sessions splits by trial type (4 trial types: correct/incorrect and stim left/right), contrast is ignored. QC passing clusters are included from all Brain Wide Map sessions. Firing rates are baselined and then normalized to percent signal change by dividing by the baseline firing rate and mapped to the transparency and scale of the dots. Last updated 2022-06. Visualization created by Kai Nylund.
 
 <p float="left">
  <a href="https://youtu.be/PgXjZJ4mI1s"><img src="https://img.youtube.com/vi/PgXjZJ4mI1s/maxresdefault.jpg" width="35%"></a>
@@ -22,6 +22,12 @@ Large files are stored here: https://drive.google.com/drive/u/3/folders/1vVH-ExX
  <a href="https://youtu.be/kcBHoQBtzZE"><img src="https://img.youtube.com/vi/kcBHoQBtzZE/maxresdefault.jpg" width="35%"></a>
 </p>
  
+ - [IBL Average Trial Neuron Viewer](https://drive.google.com/file/d/1Iw5ENIheBoSuD5pJzozvjASN-N7PDnM4/view?usp=share_link): Same as above, displays the average firing rates of neurons in the "average" IBL trial. This version is an interactive 3D Tool that lets you explore a few datasets (average trial or PSTH relative to stim on/wheel/feedback) and compare baselined data against the raw spiking. Last updated 2022-11.
+
+<p float="left">
+ <img src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/NeuronViewer.png" width="35%"> 
+</p>
+
  - Insertion coverage [axial](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_axial.png) [angled](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_angled.png) [clusters](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_good_coverage.png): Last updated 2022-11.
  
 <p float="left">

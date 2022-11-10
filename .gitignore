@@ -8,3 +8,4 @@ bwm/yanliang_peth/PETH_feedback.npy
 bwm/yanliang_peth/PETH_move.npy
 bwm/yanliang_peth/PETH_ses_id.npy
 bwm/yanliang_peth/PETH_stim.npy
+repro_ephys/bwm_all_traj_discrep.csv
