@@ -25,7 +25,13 @@ Large files are stored here: https://drive.google.com/drive/u/3/folders/1vVH-ExX
  - [IBL Average Trial Neuron Viewer](https://drive.google.com/file/d/1Iw5ENIheBoSuD5pJzozvjASN-N7PDnM4/view?usp=share_link): Same as above, displays the average firing rates of neurons in the "average" IBL trial. This version is an interactive 3D Tool that lets you explore a few datasets (average trial or PSTH relative to stim on/wheel/feedback) and compare baselined data against the raw spiking. Last updated 2022-11.
 
 <p float="left">
- <img src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/NeuronViewer.png" width="35%"> 
+ <img src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/NeuronViewer.png" width="25%"> 
+ <video width="25%" controls>
+  <source src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/ibl_basic_view_raw.mp4" type="video/mp4">
+ </video>
+ <video width="25%" controls>
+  <source src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/ibl_basic_view_baselined.mp4" type="video/mp4">
+ </video>
 </p>
 
  - Insertion coverage [axial](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_axial.png) [angled](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_angled.png) [clusters](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_good_coverage.png): Last updated 2022-11.
