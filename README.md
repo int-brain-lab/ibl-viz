@@ -57,7 +57,16 @@ Large files are stored here: https://drive.google.com/drive/u/3/folders/1vVH-ExX
 </p>
 
 ### Reproducible Ephys
- - [Repeated site coverage](https://drive.google.com/file/d/1Pt0-Etdq__t7IkGY-jFXnEhLXli4eSau/view?usp=sharing): Insertions taken from the histology positions, before sub-selecting for insertions that hit 2+ areas.
+ - [Repeated site coverage video](https://drive.google.com/file/d/1Pt0-Etdq__t7IkGY-jFXnEhLXli4eSau/view?usp=sharing): Insertions taken from the histology positions, before sub-selecting for insertions that hit 2+ areas.
+
+ - Repeated site coverage static images [axial](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/repro/axial.png) [angled](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/repro/angled.png) [sagittal](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/repro/sagittal.png) [coronal](https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/repro/coronal.png): Insertions taken from the histology positions, before sub-selecting for insertions that hit 2+ areas.
+
+<p float="left">
+ <img src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/repro/angled.png" width="20%"> 
+ <img src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/repro/axial.png" width="20%"> 
+ <img src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/repro/sagittal.png" width="20%"> 
+ <img src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/repro/coronal.png" width="20%"> 
+</p>
 
 ## Credit
 
