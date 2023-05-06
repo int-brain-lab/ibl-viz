@@ -70,4 +70,4 @@ Large files are stored here: https://drive.google.com/drive/u/3/folders/1vVH-ExX
 
 ## Credit
 
-The visualizations here were built by the IBL Visualization working group: Dan Birman, Mayo Faulkner, and Cyrille Rossant with help from Kai Nylund and the IBL staff in particular Gaelle Chapuis and Olivier Winter. 
+The visualizations here were built by [Dan Birman](https://danbirman.com) with help from the other IBL visualization working group members Mayo Faulkner, and Cyrille Rossant and the IBL staff, in particular Gaelle Chapuis and Olivier Winter. The tools used to build these visualizations were developed by the [Virtual Brain Lab](https://virtualbrainlab.org) including Kai Nylund, Kenneth Yang, and Jasmine Schoch
