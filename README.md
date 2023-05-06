@@ -9,6 +9,8 @@ Large files are stored here: https://drive.google.com/drive/u/3/folders/1vVH-ExX
 
 [IBL Data Portal](https://viz.internationalbrainlab.org/): website showing summary plots from a subset of the brain wide map and reproducible ephys sessions.
 
+[Electrophysiology Atlas Portal](https://ephysatlas.internationalbrainlab.org/): website showing the per-area features of the electrophysiology atlas and interactive versions of figures in the brain-wide map paper.
+
 ### Brain Wide Map
  - [IBL Average Trial Video](https://drive.google.com/file/d/1OeHbw3R4_wUfF_nC1iZWvDT-JQIzdjsQ/view?usp=sharing): Trials are averaged by linear time-warping between trial start, stim on, first wheel move, feedback, and trial end to match a fixed trial template. Averaging was performed for all sessions splits by trial type (4 trial types: correct/incorrect and stim left/right), contrast is ignored. QC passing clusters are included from all Brain Wide Map sessions. Firing rates are baselined and then normalized to percent signal change by dividing by the baseline firing rate and mapped to the transparency and scale of the dots. Last updated 2022-06. Visualization created by Kai Nylund.
 
