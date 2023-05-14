@@ -2,6 +2,7 @@
 **/*.pqt
 **/.ipynb_checkpoints/*
 bwm/data/*
+coverage/data/*
 test/*
 bwm/yanliang_peth/PETH_area_label.npy
 bwm/yanliang_peth/PETH_feedback.npy
