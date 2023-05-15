@@ -58,17 +58,19 @@ That's it! That file could even be compressed further by removing some of the un
 
 ![png image](./basic_vector.png "Basic Vector as PNG")
 
-It now takes up 20KB, 20x more. If this was saved as a Bitmap BMP file with no compression, it would require 250x250x32 bytes, or 2MB. So the PNG compression algorithm for this simple image gives us about 100x compression.
+It now takes up 20KB, 20x more. If you zoom in, you'll also see that there are now compression artifacts around the edges of the circles while the vector graphic is perfectly crisp when you zoom in.
+
+If this was saved as a Bitmap BMP file with no compression, it would require 250x250x32 bytes, or 2MB. So the PNG compression algorithm for this simple image gives us about 100x compression.
 
 Here's now a more complex image:
 
 ![complex png image](./bwm_angled.png "BWM Angled as PNG")
 
-This PNG file is quite complex and large, at 1572x1441 pixels. It's technically possible to convert an image like this one, which has fairly large chunks of colors into a vector graphic. If we do that we get this:
+This PNG file is quite complex and large, at 1572x1441 pixels. It's technically possible to convert an image like this one, which has fairly large chunks of colors, into a vector graphic. If we do that we get this:
 
 ![complex vector graphic (from png)](./bwm_angled.svg "BWM Angled as SVG")
 
-This file is actually *larger* than the original image. This is because an image like this one doesn't lend itself well to being represented by shapes with flat colors inside of them.
+Note that this looks pretty bad compared to the original image, we've basically done some bad compression on the image. This file is also actually *larger* than the original image. This is because an image like this one doesn't lend itself well to being represented by shapes with flat colors inside of them.
 
 ## Compiling multi-panel figures
 
