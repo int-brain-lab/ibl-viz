@@ -30,7 +30,7 @@ A **vector** graphic is an image represented by lines and polygons, where each s
 - Vector graphics are the correct format for almost all scientific figures generated from Python or MATLAB code, if you save from matplotlib, seaborn, or the print command in MATLAB with a SVG or PDF filetype, you will get a vector graphic
 - Vector graphics have **no resolution**, you can scale them up or down without changing the file size.
 - Inside the file, a vector graphic is just a list of points, polygons created by linking points, and colors, so in some cases the file sizes can be very small despite displaying very complex visuals
-- The standard in 2023 is to use either SVG or PDF, *use PDF if your graphic has any text*
+- The standard in 2023 is to use either SVG or PDF
 - It's generally not possible to compress a vector graphic, there are situations where shapes are overspecified and can be compressed, but these are rare
 - Programs like Illustrator and Inkscape work with vector graphics
 
