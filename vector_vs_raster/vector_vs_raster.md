@@ -2,6 +2,8 @@
 
 I've noticed over the last year that there tends to be a bit of confusion among people about why figures end up really large/small depending on the filesize you use. So I thought it would be helpful to share a few tips here. For people in the BWM and Repro Ephys groups, and the future Ephys Atlas and other new task forces I hope this will save you some time in the future when you are generating figures.
 
+Here's some other links to places where you can find more information on raster vs vector graphics: [Adobe's website](https://www.adobe.com/creativecloud/file-types/image/comparison/raster-vs-vector.html) 
+
 ## The two ways to save images on a computer
 
 ### Raster images
@@ -72,18 +74,27 @@ This PNG file is quite complex and large, at 1572x1441 pixels. It's technically 
 
 Note that this looks pretty bad compared to the original image, we've basically done some bad compression on the image. This file is also actually *larger* than the original image. This is because an image like this one doesn't lend itself well to being represented by shapes with flat colors inside of them.
 
-## Compiling multi-panel figures
+## Building scientific figures
 
 An important thing to note is that **PDF** files can contain both vector and raster elements in them. This is really useful for us, since in scientific figures for papers we often want to show both images of our raw data (such as histology) alongside scatterplots, barplots, etc, which are all easily represented as vectors.
 
 If you are trying to make your figures as small as possible, the general steps to do this are:
 
-1. Save all figure panels from Python/MATLAB as vector graphics (SVG or PDF)
-2. Save images (histology, etc) as rasters (PNG)
-3. When compiling multi-panel figures use either InDesign or Illustrator and use the PDF filetype, the program will correctly keep vectors as vectors and rasters as rasters.
+1. Save all figure panels from Python/MATLAB as vector graphics (SVG, or PDF), although these programs may ask for a resolution this is somewhat arbitrary as you can scale them up or down later as needed.
+2. Save images (histology, raw imaging data, etc) as rasters (PNG) at high resolution. In general you want at least 300 pixels per inch for the final output. For a one-column panel of a 4-column figure, intended to be read on regular printer paper (8.5"), make sure you have at least 500x500 pixels.
+
+That's it. Don't do any compression at this point!
+
+### Compiling multi-panel figures
+
+When compiling multi-panel figures use either InDesign or Illustrator and make sure to save to the PDF filetype, the program will correctly keep vectors as vectors and rasters as rasters.
+
+You'll know that this worked if the total filesize of the multi-panel figure is more or less the same as the file sizes of the original files. A PDF is really just a bucket where you can combine elements, it only adds a few bytes of additional header information.
 
 ### Troubleshooting
 
-If your final multi-panel PDF is too large at this point, the most likely offender are any raster images you included. Reduce their resolution or compress them (e.g. using tinypng.com), but *make sure to keep a backup of the original* since any compression you do will cause permanent loss of information.
+If your final multi-panel PDF is too large, the most likely offender are any raster images you included. Before reducing the resolution, try running them through a visual compression algorithm (e.g. using tinypng.com), but *make sure to keep a backup of the original* since any compression you do will cause permanent loss of information. If visual compression fails to make enough of a reduction in file size, then reduce the resolution.
 
-In general, converting a mixed vector/raster PDF to a raster image is a *bad idea* and will make the file larger, as you saw above for the PNG -> SVG example.
+Figures rendered as vector graphics should be relatively small in size. There are a few situations where you might get very large file sizes from vector graphics, usually when you are exporting something that is basically an image, e.g. anything with a continuous color gradient. A very large file size on a vector graphic usually means that it's basically an image and that you should try rasterizing it. Either re-save the figure as a PNG file from Python/MATLAB, or using Illustrator, select `File > Export As` and export the file to a PNG with sufficient resolution (300+ pixels per inch).
+
+In general, converting a mixed vector/raster PDF that came out of InDesign/Illustrator to a raster image is a *bad idea* and will only make the file larger while reducing the quality of the figure. Focus on tweaking the file size of the components.
