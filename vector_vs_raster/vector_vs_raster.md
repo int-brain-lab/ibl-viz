@@ -91,7 +91,7 @@ An important thing to note is that **PDF** files can contain both vector and ras
 
 If you are trying to make your figures as small as possible, the general steps to do this are:
 
-1. Save all figure panels from Python/MATLAB as vector graphics (SVG, or PDF if they have text). You may need to specify a resolution when you save your file, but this is actually somewhat arbitrary as you can scale them up or down later as needed.
+1. Save all figure panels from Python/MATLAB as vector graphics (SVG or PDF). You may need to specify a resolution when you save your file, but this is actually somewhat arbitrary as you can scale them up or down later as needed.
 2. Save images (histology, raw imaging data, etc) as rasters (PNG) at high resolution. In general you want at least 300 pixels per inch for the final printed output. For a one-column panel of a 4-column figure, intended to be read on regular printer paper (8.5"), you will need to have at least 500x500 pixels to meet that standard.
 
 That's it. Don't do any compression at this point!
