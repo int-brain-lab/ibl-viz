@@ -24,7 +24,7 @@ Large files are stored here: https://drive.google.com/drive/u/3/folders/1vVH-ExX
  <a href="https://youtu.be/kcBHoQBtzZE"><img src="https://img.youtube.com/vi/kcBHoQBtzZE/maxresdefault.jpg" width="35%"></a>
 </p>
  
- - [IBL Average Trial Neuron Viewer](https://drive.google.com/file/d/1Iw5ENIheBoSuD5pJzozvjASN-N7PDnM4/view?usp=share_link): Same as above, displays the average firing rates of neurons in the "average" IBL trial. This version is an interactive 3D Tool that lets you explore a few datasets (average trial or PSTH relative to stim on/wheel/feedback) and compare baselined data against the raw spiking. Last updated 2022-11.
+ - [IBL Average Trial Neuron Viewer](https://drive.google.com/file/d/1Iw5ENIheBoSuD5pJzozvjASN-N7PDnM4/view?usp=share_link): Same as above, displays the average firing rates of neurons in the "average" IBL trial. This version is an interactive 3D Tool that lets you explore a few datasets (average trial or PSTH relative to stim on/wheel/feedback) and compare baselined data against the raw spiking. Here's a [video](https://www.youtube.com/watch?v=67J91ocz0j0) of the tool running. Last updated 2022-11.
 
 <p float="left">
  <img src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/NeuronViewer.png" width="25%"> 
