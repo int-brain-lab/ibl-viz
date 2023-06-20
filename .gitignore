@@ -11,3 +11,5 @@ bwm/yanliang_peth/PETH_ses_id.npy
 bwm/yanliang_peth/PETH_stim.npy
 repro_ephys/bwm_all_traj_discrep.csv
 heer/data.hdf5
+.DS_Store
+gallery/.DS_Store
