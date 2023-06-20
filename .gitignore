@@ -13,3 +13,4 @@ repro_ephys/bwm_all_traj_discrep.csv
 heer/data.hdf5
 .DS_Store
 gallery/.DS_Store
+*.idlk
