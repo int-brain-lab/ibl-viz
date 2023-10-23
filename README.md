@@ -53,7 +53,7 @@ Large files are stored here: https://drive.google.com/drive/u/3/folders/1vVH-ExX
  <img src="https://github.com/int-brain-lab/website/raw/main/static/images/labs.gif" width="35%"> 
 </p>
 
- - [Examples of BWM block prior decoding results](https://github.com/int-brain-lab/ibl-viz/blob/main/bwm/bwm_block_prior_example.ipynb): Left side is the accuracy of decoding, right side is the proportion of areas with p-values < 0.05. Last updated 2022-06.
+ - [Examples of BWM block prior decoding results](https://github.com/int-brain-lab/ibl-viz/blob/main/bwm/bwm_block_prior_example.ipynb): Left side is the accuracy of decoding, right side is the proportion of areas with p-values < 0.05. These are replaced with the [Atlas website](http://atlas.internationalbrainlab.org). Last updated 2022-06.
  
 <p float="left">
  <img src="https://github.com/int-brain-lab/ibl-viz/raw/main/gallery/bwm_block_prior_accuracydecoding.png" width="35%"> 
