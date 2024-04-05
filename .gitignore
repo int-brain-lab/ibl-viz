@@ -14,3 +14,13 @@ heer/data.hdf5
 .DS_Store
 gallery/.DS_Store
 *.idlk
+ephys_atlas/encoding_model_ephys_atlas.npy
+noam_probe_tracking/electrode_tracks/2023-03-07_NR_0028_001_probe00_pts.csv
+noam_probe_tracking/electrode_tracks/2023-03-07_NR_0028_001_probe01_pts.csv
+noam_probe_tracking/electrode_tracks/2023-03-10_NR_0028_001_probe00_pts.csv
+noam_probe_tracking/electrode_tracks/2023-03-14_NR_0028_001_probe00_pts.csv
+noam_probe_tracking/electrode_tracks/2023-03-15_NR_0028_003_probe00_pts.csv
+noam_probe_tracking/electrode_tracks/2023-03-15_NR_0028_003_probe01_pts.csv
+noam_probe_tracking/electrode_tracks/2023-03-20_NR_0028_001_probe00_pts.csv
+ephys_atlas/tables/latest/df_save_goodunit_ins_region.csv
+ephys_atlas/tables/df_save_goodunit_ins_region.csv
