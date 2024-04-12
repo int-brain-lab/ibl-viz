@@ -14,6 +14,10 @@ Large files are stored here: https://drive.google.com/drive/u/3/folders/1vVH-ExX
 ### Brain Wide Map
  - **Overview video**: Overview of all clusters by lab. In four formats: [full resolution](https://drive.google.com/file/d/118w8--E9ER7Fm5mtLP-sEFuAjyUJtGTO/view?usp=drive_link), [compressed high res](https://drive.google.com/file/d/1KTp9i3125O2wLIajMv-HMW0kwDp9XuKO/view?usp=drive_link), [half res](https://drive.google.com/file/d/1X_Td-SezQb6r5niMjjsGRlxSx2CcXawB/view?usp=drive_link), [GIF](https://drive.google.com/file/d/1u8vPVZHffxMNfNsofhwWbHn9abMiX3Zr/view?usp=drive_link)
 
+<p float="left">
+ <img src="https://github.com/int-brain-lab/ibl-viz/blob/main/bwm/all_clusters_spinning/ibl_bwm.png?raw=true" width="35%">
+</p>
+
  - [IBL Average Trial Video](https://drive.google.com/file/d/1OeHbw3R4_wUfF_nC1iZWvDT-JQIzdjsQ/view?usp=sharing): Trials are averaged by linear time-warping between trial start, stim on, first wheel move, feedback, and trial end to match a fixed trial template. Averaging was performed for all sessions splits by trial type (4 trial types: correct/incorrect and stim left/right), contrast is ignored. QC passing clusters are included from all Brain Wide Map sessions. Firing rates are baselined and then normalized to percent signal change by dividing by the baseline firing rate and mapped to the transparency and scale of the dots. Last updated 2022-06. Visualization created by Kai Nylund.
 
 <p float="left">
