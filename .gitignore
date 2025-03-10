@@ -26,3 +26,4 @@ ephys_atlas/tables/latest/df_save_goodunit_ins_region.csv
 ephys_atlas/tables/df_save_goodunit_ins_region.csv
 
 .venv/*
+bwm_nature_media/data/*
