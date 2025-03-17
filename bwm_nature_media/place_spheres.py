@@ -29,6 +29,7 @@ def place_spheres_from_csv(csv_path, offset):
 
                 # Create sphere
                 bpy.ops.mesh.primitive_uv_sphere_add(radius=1, location=(adj_x, adj_y, adj_z))
+                print(f"Done with: {row}")
 
             except ValueError:
                 print(f"Skipping row with invalid coordinates: {row}")
