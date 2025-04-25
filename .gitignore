@@ -27,3 +27,7 @@ ephys_atlas/tables/df_save_goodunit_ins_region.csv
 
 .venv/*
 bwm_nature_media/data/*
+bwm_nature_media/mov.mp4
+bwm_nature_media/mov_baseline_normalized.mp4
+bwm_nature_media/mov_baseline_normalized_dark.mp4
+bwm_nature_media/mov_raw.mp4
