@@ -12,6 +12,8 @@ Large files are stored here: https://drive.google.com/drive/u/3/folders/1vVH-ExX
 [Electrophysiology Atlas Portal](https://ephysatlas.internationalbrainlab.org/): website showing the per-area features of the electrophysiology atlas and interactive versions of figures in the brain-wide map paper.
 
 ### Brain Wide Map
+ - **2025 images/videos**: New images and videos of the final BWM dataset, prior to publication. Find all the files/videos here: https://drive.google.com/drive/u/1/folders/1pjSB6nqCZZe3tR6NoLR3x7iqGtgJVZjx
+
  - **Overview video**: Overview of all clusters by lab. In four formats: [full resolution](https://drive.google.com/file/d/118w8--E9ER7Fm5mtLP-sEFuAjyUJtGTO/view?usp=drive_link), [compressed high res](https://drive.google.com/file/d/1KTp9i3125O2wLIajMv-HMW0kwDp9XuKO/view?usp=drive_link), [half res](https://drive.google.com/file/d/1X_Td-SezQb6r5niMjjsGRlxSx2CcXawB/view?usp=drive_link), [GIF](https://drive.google.com/file/d/1u8vPVZHffxMNfNsofhwWbHn9abMiX3Zr/view?usp=drive_link)
 
 <p float="left">
